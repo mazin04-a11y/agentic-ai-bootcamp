@@ -15,7 +15,9 @@
       "mcp__Claude_in_Chrome__computer",
       "Bash(copy \"C:\\\\Users\\\\mazin\\\\OneDrive\\\\Documents\\\\Agentic AI BootCamp\\\\Docker and Jenkins\\\\.env.example\" \"C:\\\\Users\\\\mazin\\\\OneDrive\\\\Documents\\\\Agentic AI BootCamp\\\\Docker and Jenkins\\\\.env\")",
       "Bash(ssh -T git@github.com)",
-      "Bash(gh auth *)"
+      "Bash(gh auth *)",
+      "Bash(gh repo *)",
+      "Bash(export PATH=\"$PATH:/c/Program Files/GitHub CLI\")"
     ]
   }
 }

@@ -1,0 +1,19 @@
+# config/tasks.yaml
+# Task instructions — update task descriptions here without touching code.
+# Week 18 pattern: separate the "what and how" from the orchestration logic.
+
+research_task:
+  description: >
+    Research the following topic thoroughly: {topic}.
+    Gather key facts, recent developments, important insights, and credible sources.
+  expected_output: >
+    A detailed summary (400-600 words) covering key facts, insights, and sources
+    on the topic. Include at least 3 distinct findings.
+
+writing_task:
+  description: >
+    Using the research provided as context, write a concise and engaging report on: {topic}.
+    Structure the report with an introduction, main findings, and a conclusion.
+  expected_output: >
+    A well-structured, professional report (300-500 words) ready to publish.
+    Must include: introduction, 2-3 key findings with supporting detail, and a conclusion.
