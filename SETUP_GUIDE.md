@@ -1472,6 +1472,17 @@ git commit -m "Your message here"
 git push origin master
 ```
 
+> ⚠️ **Important — Commit messages:**
+> Do NOT add `Co-Authored-By: Claude` lines to commit messages.
+> These show Claude's avatar on GitHub next to your commits.
+> Keep commits under your name only.
+> If you accidentally push Co-Authored-By lines, fix it with:
+> ```
+> git filter-repo --message-callback 'import re; msg=message.decode("utf-8"); msg=re.sub(r"\n\nCo-Authored-By:.*","",msg,flags=re.DOTALL); return msg.encode("utf-8")' --force
+> git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO.git
+> git push origin master --force
+> ```
+
 ---
 
 ## Troubleshooting
